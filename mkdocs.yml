@@ -4,7 +4,7 @@ site_favicon: '/img/gluu_favicon.ico'
 copyright: Copyright &copy; 2014, Gluu, Inc.
 docs_dir: sources
 repo_url: https://github.com/GluuFederation/docs-cluster
-theme: spacelab 
+theme: spacelab
 
 theme_dir: ./theme/mkdocs/
 theme_center_lead: false
@@ -16,12 +16,12 @@ pages:
 - ['index.md', 'Home']
 
 # Admin Guide Sections
-- ['admin-guide/components/index.md', 'Admin Guide', 'Introduction']
+- ['admin-guide/overview/index.md', 'Admin Guide', 'Overview']
 - ['admin-guide/installation/index.md', 'Admin Guide', 'Installation']
-- ['admin-guide/monitoring/index.md', 'Admin Guide', 'oxTrust User Interface']
-- ['admin-guide/overview/index.md', 'Admin Guide', 'Gluu Server Operations']
-- ['admin-guide/testing/index.md', 'Admin Guide', 'Customizing Look and Feel']
-- ['admin-guide/tuning/index.md', 'Admin Guide', 'Registration Workflow']
+- ['admin-guide/components/index.md', 'Admin Guide', 'Components']
+- ['admin-guide/monitoring/index.md', 'Admin Guide', 'Monitoring']
+- ['admin-guide/testing/index.md', 'Admin Guide', 'Testing']
+- ['admin-guide/tuning/index.md', 'Admin Guide', 'Tuning']
 
 # API section
-- ['api/index.md', 'API', 'API Reference']
+- ['reference/api.md', 'Reference', 'API']
